@@ -1,0 +1,130 @@
+css
+/* ===== Общие стили для body ===== */
+body {
+ font-family: Arial, sans-serif;
+ background-color: #FA8072;
+ color: #333;
+ margin: 0;
+ padding: 30px;
+}
+.page1 {
+    background-color: #E0FFFF;
+}
+.page2 {
+    background-color: #F5F5F5;
+}
+/* ===== Заголовок h1 ===== */
+h1 {
+ text-align: center; /* выравнивание по центру */
+ text-transform: uppercase; /* верхний регистр */
+ color: #483D8B;
+ letter-spacing: 1px;
+ text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3); /* тень текста */
+}
+/* ===== Заголовок h2 ===== */
+h2 {
+ text-align: center; /* выравнивание по центру */
+ text-transform: uppercase; /* верхний регистр */
+ color: #C71585;
+ letter-spacing: 1px;
+ text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3); /* тень текста */
+}
+/* ===== Абзац с учебным заведением ===== */
+.institution {
+ text-align: center;
+ font-size: 18px;
+ color: #555;
+ margin-bottom: 30px;
+}
+/* ===== Карточка ===== */
+.card {
+ width: 400px; /* ширина карточки */
+ margin: 0 auto; /* горизонтальное центрирование */
+ padding: 25px; /* внутренние отступы */
+ background-color: #DDA0DD; /* фон */
+ border-radius: 15px; /* скругление углов */
+ box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15); /* тень блока */
+ text-align: center; /* выравнивание содержимого */
+}
+/* ===== Аватар ===== */
+.avatar {
+ width: 150px;
+ height: 150px;
+ border-radius: 50%; /* круглая форма */
+ border: 3px solid #483D8B; /* рамка */
+ object-fit: cover; /* сохранение пропорций */
+ display: block;
+ margin: 0 auto 15px; /* центрирование + отступ снизу */
+}
+/* ===== Подзаголовок h2 ===== */
+.card h2 {
+ color: #483D8B;
+ font-size: 22px;
+ margin-bottom: 10px;
+}
+/* ===== Абзац внутри карточки ===== */
+.card p {
+ line-height: 1.5; /* межстрочный интервал */
+ font-size: 16px;
+ margin-bottom: 15px;
+}
+/* ===== Список ===== */
+.card ul {
+ list-style: none; /* убираем маркеры */
+ padding: 0;
+ margin-bottom: 20px;
+}
+.card ul li {
+ background-color: #e8eaf6;
+ padding: 8px 12px;
+ margin-bottom: 6px;
+ border-radius: 6px;
+ font-size: 15px;
+}
+/* ===== Ссылка ===== */
+.card a {
+ color: #483D8B;
+ text-decoration: none; /* убираем подчёркивание */
+ font-weight: bold;
+ transition: color 0.3s; /* плавная смена цвета */
+}
+.card a:hover {
+ color: #e53935; /* цвет при наведении */
+ text-decoration: underline;
+}
+/* ===== Текст ===== */
+.page2 p {
+ max-width: 850px;
+ margin: 0 auto 15px;
+ padding: 15px 20px;
+ background-color: #AFEEEE;
+ border-radius: 10px;
+ line-height: 1.6;
+ font-size: 16px;
+ box-shadow: 0 3px 10px rgba(0, 0, 0, 0.12);
+}
+/* ===== Разделитель между городами ===== */
+hr {
+ max-width: 850px;
+ margin: 40px auto;
+ border: 0;
+ border-top: 2px solid #000000;
+}
+/* ===== Ссылка на главную ===== */
+.page2 a {
+ display: block;
+ width: fit-content;
+ margin: 35px auto 0;
+ padding: 10px 20px;
+ color: white;
+ background-color: #483D8B;
+ text-decoration: none;
+ border-radius: 8px;
+ font-weight: bold;
+ transition: 0.3s;
+}
+
+.page2 a:hover {
+ background-color: #e53935;
+ text-decoration: underline;
+}
